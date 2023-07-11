@@ -7,18 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AB124F102A5E003900ABB331 /* happy_play_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB124F0F2A5E003900ABB331 /* happy_play_appApp.swift */; };
+		AB124F102A5E003900ABB331 /* happy-play-app.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB124F0F2A5E003900ABB331 /* happy-play-app.swift */; };
 		AB124F122A5E003900ABB331 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB124F112A5E003900ABB331 /* ContentView.swift */; };
 		AB124F142A5E003A00ABB331 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB124F132A5E003A00ABB331 /* Assets.xcassets */; };
 		AB124F172A5E003A00ABB331 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB124F162A5E003A00ABB331 /* Preview Assets.xcassets */; };
+		AB124F212A5E00DC00ABB331 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB124F202A5E00DC00ABB331 /* VideoView.swift */; };
+		AB124F252A5E013E00ABB331 /* QueryTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB124F232A5E013E00ABB331 /* QueryTag.swift */; };
+		AB124F262A5E013E00ABB331 /* VideoCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB124F242A5E013E00ABB331 /* VideoCard.swift */; };
+		AB124F292A5E015E00ABB331 /* ModalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB124F272A5E015E00ABB331 /* ModalData.swift */; };
+		AB124F2A2A5E015E00ABB331 /* videoData.json in Resources */ = {isa = PBXBuildFile; fileRef = AB124F282A5E015E00ABB331 /* videoData.json */; };
+		AB124F2C2A5E017600ABB331 /* VideoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB124F2B2A5E017600ABB331 /* VideoManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AB124F0C2A5E003900ABB331 /* happy play app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "happy play app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB124F0F2A5E003900ABB331 /* happy_play_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = happy_play_appApp.swift; sourceTree = "<group>"; };
+		AB124F0C2A5E003900ABB331 /* happy-play-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "happy-play-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB124F0F2A5E003900ABB331 /* happy-play-app.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "happy-play-app.swift"; sourceTree = "<group>"; };
 		AB124F112A5E003900ABB331 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AB124F132A5E003A00ABB331 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB124F162A5E003A00ABB331 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AB124F202A5E00DC00ABB331 /* VideoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		AB124F232A5E013E00ABB331 /* QueryTag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueryTag.swift; sourceTree = "<group>"; };
+		AB124F242A5E013E00ABB331 /* VideoCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCard.swift; sourceTree = "<group>"; };
+		AB124F272A5E015E00ABB331 /* ModalData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalData.swift; sourceTree = "<group>"; };
+		AB124F282A5E015E00ABB331 /* videoData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videoData.json; sourceTree = "<group>"; };
+		AB124F2B2A5E017600ABB331 /* VideoManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +47,7 @@
 		AB124F032A5E003900ABB331 = {
 			isa = PBXGroup;
 			children = (
-				AB124F0E2A5E003900ABB331 /* happy play app */,
+				AB124F0E2A5E003900ABB331 /* happy-play-app */,
 				AB124F0D2A5E003900ABB331 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,36 +55,58 @@
 		AB124F0D2A5E003900ABB331 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AB124F0C2A5E003900ABB331 /* happy play app.app */,
+				AB124F0C2A5E003900ABB331 /* happy-play-app.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AB124F0E2A5E003900ABB331 /* happy play app */ = {
+		AB124F0E2A5E003900ABB331 /* happy-play-app */ = {
 			isa = PBXGroup;
 			children = (
-				AB124F0F2A5E003900ABB331 /* happy_play_appApp.swift */,
-				AB124F112A5E003900ABB331 /* ContentView.swift */,
+				AB124F0F2A5E003900ABB331 /* happy-play-app.swift */,
+				AB124F2B2A5E017600ABB331 /* VideoManager.swift */,
+				AB124F1D2A5E008700ABB331 /* Views */,
+				AB124F222A5E010000ABB331 /* Components */,
 				AB124F132A5E003A00ABB331 /* Assets.xcassets */,
 				AB124F152A5E003A00ABB331 /* Preview Content */,
 			);
-			path = "happy play app";
+			path = "happy-play-app";
 			sourceTree = "<group>";
 		};
 		AB124F152A5E003A00ABB331 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				AB124F272A5E015E00ABB331 /* ModalData.swift */,
+				AB124F282A5E015E00ABB331 /* videoData.json */,
 				AB124F162A5E003A00ABB331 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		AB124F1D2A5E008700ABB331 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AB124F202A5E00DC00ABB331 /* VideoView.swift */,
+				AB124F112A5E003900ABB331 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AB124F222A5E010000ABB331 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AB124F232A5E013E00ABB331 /* QueryTag.swift */,
+				AB124F242A5E013E00ABB331 /* VideoCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AB124F0B2A5E003900ABB331 /* happy play app */ = {
+		AB124F0B2A5E003900ABB331 /* happy-play-app */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AB124F1A2A5E003A00ABB331 /* Build configuration list for PBXNativeTarget "happy play app" */;
+			buildConfigurationList = AB124F1A2A5E003A00ABB331 /* Build configuration list for PBXNativeTarget "happy-play-app" */;
 			buildPhases = (
 				AB124F082A5E003900ABB331 /* Sources */,
 				AB124F092A5E003900ABB331 /* Frameworks */,
@@ -82,9 +116,9 @@
 			);
 			dependencies = (
 			);
-			name = "happy play app";
+			name = "happy-play-app";
 			productName = "happy play app";
-			productReference = AB124F0C2A5E003900ABB331 /* happy play app.app */;
+			productReference = AB124F0C2A5E003900ABB331 /* happy-play-app.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +136,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AB124F072A5E003900ABB331 /* Build configuration list for PBXProject "happy play app" */;
+			buildConfigurationList = AB124F072A5E003900ABB331 /* Build configuration list for PBXProject "happy-play-app" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +149,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AB124F0B2A5E003900ABB331 /* happy play app */,
+				AB124F0B2A5E003900ABB331 /* happy-play-app */,
 			);
 		};
 /* End PBXProject section */
@@ -127,6 +161,7 @@
 			files = (
 				AB124F172A5E003A00ABB331 /* Preview Assets.xcassets in Resources */,
 				AB124F142A5E003A00ABB331 /* Assets.xcassets in Resources */,
+				AB124F2A2A5E015E00ABB331 /* videoData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +172,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB124F212A5E00DC00ABB331 /* VideoView.swift in Sources */,
+				AB124F262A5E013E00ABB331 /* VideoCard.swift in Sources */,
 				AB124F122A5E003900ABB331 /* ContentView.swift in Sources */,
-				AB124F102A5E003900ABB331 /* happy_play_appApp.swift in Sources */,
+				AB124F2C2A5E017600ABB331 /* VideoManager.swift in Sources */,
+				AB124F102A5E003900ABB331 /* happy-play-app.swift in Sources */,
+				AB124F252A5E013E00ABB331 /* QueryTag.swift in Sources */,
+				AB124F292A5E015E00ABB331 /* ModalData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +306,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"happy play app/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"happy-play-app/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -294,7 +334,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"happy play app/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"happy-play-app/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -318,7 +358,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AB124F072A5E003900ABB331 /* Build configuration list for PBXProject "happy play app" */ = {
+		AB124F072A5E003900ABB331 /* Build configuration list for PBXProject "happy-play-app" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AB124F182A5E003A00ABB331 /* Debug */,
@@ -327,7 +367,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AB124F1A2A5E003A00ABB331 /* Build configuration list for PBXNativeTarget "happy play app" */ = {
+		AB124F1A2A5E003A00ABB331 /* Build configuration list for PBXNativeTarget "happy-play-app" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AB124F1B2A5E003A00ABB331 /* Debug */,
